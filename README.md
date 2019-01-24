@@ -1,1 +1,1 @@
-# landingpage
+# Web landingpage template bootstrap
