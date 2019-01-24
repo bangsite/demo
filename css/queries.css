@@ -1,0 +1,190 @@
+@media (min-width: 320px)and (max-width:576px) {
+
+    /*Header*/
+
+    /* Menu Moile */
+
+    /* Slider */
+    #carousel_area img {
+
+        height: auto;
+    }
+
+    #carousel_area .carousel-item .carousel-caption {
+        top: 24%;
+    }
+
+    #carousel_area .carousel-item .carousel-caption h3 {
+        font-size: 1.5rem;
+    }
+
+    #carousel_area .carousel-item .carousel-caption h2 {
+        font-size: 2rem;
+    }
+
+    #carousel_area .carousel-item .carousel-caption h4 {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    #carousel_area .carousel-item .btn-common {
+        font-size: 0.875rem;
+    }
+
+    #carousel_area .carousel-item .btn-border {
+        font-size: 0.875rem;
+
+    }
+
+
+    /* Footer */
+    #footer_bottom .f_copyright {
+        text-align: center;
+    }
+
+    #footer_bottom .f_social {
+
+        justify-content: center;
+
+    }
+
+}
+
+@media (min-width: 576px)and (max-width:767px) {
+
+    /* Sldier */
+    #carousel_area img {
+
+        height: auto;
+    }
+
+    #carousel_area .carousel-item .carousel-caption {
+        top: 28%;
+    }
+
+    #carousel_area .carousel-item .carousel-caption h3 {
+        font-size: 1.5rem;
+    }
+
+    #carousel_area .carousel-item .carousel-caption h2 {
+
+        font-size: 2.3rem;
+
+    }
+
+    #carousel_area .carousel-item .carousel-caption h4 {
+        font-size: 1.1rem;
+        margin-bottom: 30px;
+    }
+
+    #carousel_area .carousel-item .btn-common {
+        font-size: 0.9rem;
+    }
+
+    #carousel_area .carousel-item .btn-border {
+        font-size: 0.9rem;
+
+
+    }
+
+    /* Footer */
+    #footer_bottom .f_copyright {
+        text-align: center;
+    }
+
+    #footer_bottom .f_social {
+
+        justify-content: center;
+
+    }
+}
+
+@media (min-width: 768px)and (max-width:991px) {
+
+    #header a.navbar-brand {
+        font-size: 1rem;
+    }
+
+    #header .nav-link {
+        font-size: 0.875rem;
+        margin-left: 20px;
+    }
+
+    .navbar-expand-md .navbar-nav .nav-link::before {
+        display: inline-block;
+    }
+
+    /* Sldier */
+    #carousel_area img {
+
+        height: auto;
+    }
+
+    #carousel_area .carousel-item .carousel-caption {
+        top: 31%;
+    }
+
+    #carousel_area .carousel-item .carousel-caption h3 {
+        font-size: 1.8rem;
+    }
+
+    #carousel_area .carousel-item .carousel-caption h2 {
+
+        font-size: 2.5rem;
+
+    }
+
+    #carousel_area .carousel-item .carousel-caption h4 {
+        font-size: 1.3rem;
+        margin-bottom: 40px;
+    }
+
+    #carousel_area .carousel-item .btn-common {
+        font-size: 1rem;
+    }
+
+    #carousel_area .carousel-item .btn-border {
+        font-size: 1rem;
+
+
+    }
+
+}
+
+@media (min-width:992px)and (max-width:1200px) {
+    #header a.navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    #header .nav-link {
+        font-size: 1rem;
+        margin-left: 30px;
+    }
+
+    /* Slider */
+    #carousel_area .carousel-item {
+        height: 600px;
+    }
+
+    #carousel_area .carousel-item .carousel-caption {
+        top: 32%;
+    }
+
+    #carousel_area .carousel-item .carousel-caption h3 {
+        font-size: 2.5rem;
+    }
+
+    #carousel_area .carousel-item .carousel-caption h2 {
+
+        font-size: 3.8rem;
+
+    }
+
+    #carousel_area .carousel-item .carousel-caption h4 {
+        font-size: 1.1rem;
+    }
+
+
+}
+
+@media (min-width: 1024px) {}
