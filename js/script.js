@@ -5,7 +5,7 @@ $(document).ready(function () {
     let nav_form = $(".form-control");
     let scrollTop = $(".back-to-top");
     new WOW().init();
-    var carousel = $('.owl-carousel').owlCarousel({
+    $('.owl-carousel').owlCarousel({
         autoPlay: 3000, //Set AutoPlay to 3 seconds
         items: 5,
         loop: true,
@@ -14,9 +14,9 @@ $(document).ready(function () {
         itemsTablet: [600, 1],
         itemsMobile: [479, 1]
     });
-    carousel.imagesLoaded(function () {
-        carousel.trigger('refresh.owl.carousel');
-    });
+    // carousel.imagesLoaded(function () {
+    //     carousel.trigger('refresh.owl.carousel');
+    // });
 
     $(window).scroll(function () {
         var top = $(this).scrollTop();
