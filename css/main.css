@@ -491,6 +491,10 @@ ul {
     padding: 6px 0;
 }
 
+#header .navbar-nav {
+    justify-content: flex-end;
+}
+
 #header .nav-link {
     position: relative;
     font-family: "Roboto+Mono", sans-serif;

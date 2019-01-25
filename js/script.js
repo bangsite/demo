@@ -12,7 +12,29 @@ $(document).ready(function () {
         dots: false,
         itemsDesktopSmall: [1024, 1],
         itemsTablet: [600, 1],
-        itemsMobile: [479, 1]
+        itemsMobile: [479, 1],
+        responsive: {
+            1440: {
+                items: 5,
+                slideBy: 5,
+                loop: ($('.item').length > 5)
+            },
+            1020: {
+                items: 5,
+                slideBy: 5,
+                loop: ($('.item').length > 5)
+            },
+            740: {
+                items: 4,
+                sideby: 4,
+                loop: ($('.item').length > 4)
+            },
+            340: {
+                items: 3,
+                sideby: 3,
+                loop: ($('.item').length > 3)
+            }
+        }
     });
     // carousel.imagesLoaded(function () {
     //     carousel.trigger('refresh.owl.carousel');

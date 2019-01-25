@@ -1,8 +1,114 @@
-@media (min-width: 320px)and (max-width:576px) {
+@media (min-width: 320px)and (max-width:480px) {
 
     /*Header*/
 
     /* Menu Moile */
+    #header .nav-link {
+        text-align: left;
+        margin-left: 0;
+    }
+
+    #header .nav-link.btn {
+        width: 85px;
+    }
+
+    #header .nav-link:hover::before,
+    #header .active::before {
+        width: 6%;
+    }
+
+    /* Slider */
+    #carousel_area img {
+
+        height: auto;
+    }
+
+    #carousel_area .carousel-item .carousel-caption {
+        top: 25%;
+    }
+
+    #carousel_area .carousel-item .carousel-caption h3 {
+        font-size: 0.8rem;
+        margin-bottom: 0.4em;
+        margin-top: 5px;
+        line-height: 1.6;
+    }
+
+    #carousel_area .carousel-item .carousel-caption h2 {
+        font-size: 1.2rem;
+        margin-bottom: 0.4em;
+    }
+
+    #carousel_area .carousel-item .carousel-caption h4 {
+        font-size: 0.7rem;
+        margin-bottom: 15px;
+    }
+
+    #carousel_area .carousel-item .btn-common {
+        font-size: 0.725rem;
+        padding: 7px 15px;
+    }
+
+    #carousel_area .carousel-item .btn-border {
+        font-size: 0.725rem;
+        padding: 5px 15px;
+    }
+
+    /* Section */
+    .section {
+        padding: 60px 0;
+    }
+
+    .section_header {
+        margin-bottom: 30px;
+    }
+
+    .section_header .section_title {
+        font-size: 2rem;
+    }
+
+    /* Call Action */
+    .call_action .call_content h3 {
+        font-size: 1.7rem;
+    }
+
+    #call h5 {
+        font-size: 1.7rem;
+    }
+
+    /* Footer */
+    #footer_bottom .f_copyright {
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+    #footer_bottom .f_social {
+
+        justify-content: center;
+
+    }
+
+}
+
+
+@media (min-width: 480px)and (max-width:576px) {
+
+    /*Header*/
+
+    /* Menu Moile */
+    #header .nav-link {
+        text-align: left;
+        margin-left: 0;
+    }
+
+    #header .nav-link.btn {
+        width: 85px;
+    }
+
+    #header .nav-link:hover::before,
+    #header .active::before {
+        width: 6%;
+    }
 
     /* Slider */
     #carousel_area img {
